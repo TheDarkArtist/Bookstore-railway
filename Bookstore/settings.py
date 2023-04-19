@@ -97,11 +97,11 @@ WSGI_APPLICATION = 'Bookstore.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bookstore',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD':'postgres',
-        'HOST':'localhost',
-        'PORT':'5432',
+        'PASSWORD':'srUlKKtFYLlvgOyum8sp',
+        'HOST':'containers-us-west-190.railway.app',
+        'PORT':'5758',
     }
 }
 
