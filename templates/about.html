@@ -1,0 +1,21 @@
+{% extends '_base.html' %}
+
+{% block title %}About{% endblock title %}
+
+{% block content %}
+
+
+<div class="container-fluid mt-4" >
+    <a href="{% url 'admin:index' %}">Admin</a>
+    | <a href="{% url 'account_change_password' %}">Change pass</a>
+    | <a href="{% url 'account_reset_password' %}">Reset pass</a>
+    <hr>
+    
+    <h1> about page </h1>
+
+
+    
+</div>
+
+
+{% endblock content %}

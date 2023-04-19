@@ -1,0 +1,18 @@
+{% extends '_base.html' %}
+
+{% block title %}Books{% endblock title %}
+
+{% block content %}
+
+<div class="container-fluid my-4">
+    <h2> We have following books </h2>
+    <br>
+    <hr>
+    {% for book in book_list %}
+    <a class="book_list_links" href="{{ book.get_absolute_url }}"><div><p> <b>{{book.title}}</b> | {{book.author}} | {{book.price}}</p></div></a>
+    <hr>
+{% endfor %}
+</div>
+
+
+{% endblock content %}

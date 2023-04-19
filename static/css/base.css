@@ -1,0 +1,18 @@
+h1,h2,h3,h4{
+    color: red;
+}
+
+.book_list_links{
+    color: blue;
+}
+
+.book_list_links:hover{
+    color: red;
+    font-size: large;
+}
+
+hr{
+    margin-top: .55rem;
+    margin-bottom: .55rem;
+    background-color: blue;
+}
